@@ -27,11 +27,10 @@ body{
     color: white;
     text-decoration: none;
     padding: 16px;
-    
 }
+
 .header__nav a:hover{
     color: yellow;
-    font-weight: 500;
     transition: 1s;
 }
 
@@ -53,4 +52,8 @@ a.header__planos:hover{
     text-transform: uppercase;
     text-align: center;
     margin: 40px;
+}
+
+.valores{
+    display: flex;
 }
