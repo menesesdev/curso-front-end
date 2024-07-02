@@ -43,8 +43,6 @@ a.header__planos{
 
 a.header__planos:hover{
     color: black;
-    transform: scale(1.15);
-    transition: 2s;
 }
 
 .main-title{
@@ -54,6 +52,49 @@ a.header__planos:hover{
     margin: 40px;
 }
 
+
 .valores{
     display: flex;
+    gap: 16px;
 }
+
+.valores__precos{
+    flex: 1;
+    background-color: #1f262c;
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.valores__subtitulo{
+    font-size: 22px;
+    border-bottom: 1px solid yellow;
+    padding-bottom: 10px;
+}
+
+.valores__valor-do-plano{
+    font-size: 32px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.valores__descricao{
+    flex: 1;
+}
+
+.valores__botao{
+    background-color: yellow;
+    border-radius: 4px;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.valores__botao:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
