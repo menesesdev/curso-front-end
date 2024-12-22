@@ -1,0 +1,84 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #181818;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form{
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 560px;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1.5em; /* Espaço entre o título e os campos do formulário */
+}
+
+label, input, textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 1.2em;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input{
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+label {
+    margin-bottom: 0.8em; /* Espaço entre o label e o input/textarea */
+    
+}
+
+input:invalid, textarea:invalid{
+    border: 1px solid red;
+}
+
+input, textarea {
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 2.0em; /* Espaço entre o input/textarea e o próximo label */
+}
+
+input:focus, textarea:focus{
+    background-color: #3a3737;
+    transition: 0.2s;
+}
+
+.btn{
+    background-color: #2a2727;
+    color: white;
+    cursor: pointer;
+    padding: 0.8em;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.8em;
+    width: 30%;
+    margin-top: 1.0em;
+}
+
+.btn:hover{
+    background-color: #3a3737;
+    transition: 0.4s;
+}
