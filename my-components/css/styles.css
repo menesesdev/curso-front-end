@@ -13,7 +13,7 @@ body {
 }
 
 .main-header {
-    flex: 0 0 26rem;
+    flex: 0 0 20rem;
     background-color: var(--seconddary-color);
     text-align: center;
 
@@ -21,11 +21,14 @@ body {
 
 .main-content {
     background-color: #181818;
-    min-width: 100%;
+    flex: 1;
 }
 
 a {
     text-decoration: none;
     color: #e7e7e7;
+}
 
+li{
+    list-style-type: none;
 }
