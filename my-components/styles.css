@@ -21,6 +21,7 @@ body {
 
 .main-content {
     background-color: #181818;
+    min-width: 100%;
 }
 
 a {
