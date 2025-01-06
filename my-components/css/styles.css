@@ -12,6 +12,11 @@ body {
     min-height: 100vw;
 }
 
+.main,
+.main-header {
+    font-size: 1.6rem;
+}
+
 .main-header {
     flex: 0 0 20rem;
     background-color: var(--seconddary-color);
@@ -27,8 +32,24 @@ body {
 a {
     text-decoration: none;
     color: #e7e7e7;
+    display: block;
 }
 
-li{
+li {
+    
     list-style-type: none;
+    font-size: 1.1rem;
+    text-align: left;
+    border-bottom: 1px solid white;
+    padding: 20px 0px 20px 0px;
+}
+
+li:hover{
+    background-color: #535353;
+    transition: 0.4s;
+    font-size: 1.2rem;
+}
+
+.perfil-img {
+    max-width: 150px;
 }
