@@ -12,6 +12,28 @@ body {
     min-height: 100vw;
 }
 
+article {
+    border-top: 1px solid white;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h3 a {
+    display: inline;
+}
+
+address a {
+    display: inline;
+}
+
+h1,
+h2,
+h3 {
+    color: orange;
+}
+
 .main,
 .main-header {
     font-size: 1.6rem;
@@ -27,6 +49,7 @@ body {
 .main-content {
     background-color: #181818;
     flex: 1;
+    padding: 6.5rem 3.0rem 7.5rem;
 }
 
 a {
@@ -35,16 +58,21 @@ a {
     display: block;
 }
 
-li {
-    
-    list-style-type: none;
-    font-size: 1.1rem;
-    text-align: left;
-    border-bottom: 1px solid white;
-    padding: 20px 0px 20px 0px;
+ul {
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
 }
 
-li:hover{
+li {
+
+    list-style-type: none;
+    font-size: 1.1rem;
+    text-align: right;
+    border-bottom: 1px solid white;
+    padding: 0.8rem 0;
+}
+
+li:hover {
     background-color: #535353;
     transition: 0.4s;
     font-size: 1.2rem;
